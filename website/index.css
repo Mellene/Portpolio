@@ -1,0 +1,74 @@
+.navbar {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    font-size: 20px;
+}
+
+nav li {
+    display: inline;
+    text-decoration: none;
+    margin: 0px 25px 0px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.home {
+    height: 80vh;
+    margin: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.home p {
+    margin: 50px;
+}
+
+.about {
+    height: 100vh;
+    display: flex; /* Flexbox를 사용하여 2개의 column 생성 */
+    gap: 20px; /* column 간의 간격 설정 */
+    width: 100%; /* 전체 컨테이너 크기 */
+}
+
+.profile {
+    float: left;
+    width: 50%;
+}
+
+.about img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.column {
+    flex: 1; /* 두 column이 동일한 너비를 차지 */
+    display: flex; /* 내부에서 이미지를 정렬하기 위해 Flexbox 사용 */
+    align-items: center; /* 수직 정렬 */
+    justify-content: center; /* 수평 정렬 */
+    height: 400px; /* column 높이 설정 */
+}
+
+.column img {
+    max-width: 100%; /* column 너비를 초과하지 않도록 설정 */
+    max-height: 100%; /* column 높이를 초과하지 않도록 설정 */
+    object-fit: cover; /* 이미지를 비율 유지하며 column에 맞춤 */
+}
+
+
+/* 
+img {
+    max-width: 60%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+}
+ */
