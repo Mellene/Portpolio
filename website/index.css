@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
 
 #homeTag {
@@ -103,6 +104,16 @@ nav li a {
     width: 50%;
 }
 
+.honor hr {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.honor li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
 .about {
     max-height: 100vh;
     margin-bottom: 50px;
@@ -116,6 +127,22 @@ nav li a {
 .about li {
     font-size: 18px;
     margin-bottom: 10px;
+}
+
+.photo img {
+  padding: 30px;
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;      /* 다음 이미지와 간격을 두기 위해 아래 여백 */
+}
+
+.activityPhoto {
+ display: flex;
+ flex-direction: row;
+ width: 300px;
+ align-items: center;
 }
 
 .column {
@@ -168,4 +195,10 @@ nav li a {
 .researchs hr {
   margin-left: 30px;
   margin-right: 30px;
+}
+
+.postMain {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }

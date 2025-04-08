@@ -13,13 +13,13 @@
                 Yunho Kang
             </a>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Projects & Researchs</a></li>
-                <li><a href="">Projects & Researchs</a></li>
+                <li><a href="#homePart">Home</a></li>
+                <li><a href="#aboutPart">About</a></li>
+                <li><a href="#projectPart">Projects & Researchs</a></li>
+                <li><a href="post.html">Posts</a></li>
             </ul>
         </nav>
-    <div class="homePage">
+    <div class="homePage" id="homePart">
         <img class="profile-img" src="assets/profile.jpeg" alt="Profile Image" />
         <div class="profile-info">
             <h1>Yunho Kang</h1>
@@ -28,7 +28,7 @@
             <p>I'm passionate about building user interface as <strong>UX/UI</strong> experience using <strong>React.js, HTML, CSS, bootstrap, and JavaScript</strong>.</p>
             <p>I have an experience for researching Artificial Intelligence, especially Spike Neural Network in SUNY Korea</p>
             <p><strong>Languages</strong>: Java, JavaScript, HTML, CSS, Dart(Flutter), Python, C</p>
-            <p><strong>Database Systems</strong>: MySQL, SQL</p>
+            <p><strong>Database Systems</strong>: SQL, MySQL</p>
             <p><strong>Software</strong>: Figma, Microsoft Office(PowerPoint, Excel, Word), Final Cut Pro, Penpot, Logic Pro X</p>
             <p class="research"><strong>Research Interests:</strong> Neural Networks, Object Detection, User Interface, Human Computer Interaction</p>
             <div class="social-icons">
@@ -39,6 +39,19 @@
             </div>
         </div>
     </div>
+    
+    <!-- honor-->
+    <div>
+        <div class="honor" id="aboutPart">
+            <h2 style="margin-left: 30px">Honors</h2>
+            <hr>
+            <ul>
+                <li>Scholarship of Achievement 20 (Fall 2024)</li>
+                <li>ICEPR 2025 Conference Extended Abstract Accepted</li>
+            </ul>
+        </div>
+    </div>
+
     <!-- About me -->
     <div>
         <div class="about">
@@ -53,10 +66,15 @@
                 <li>Undergraduate Research Assistant as BCL Research Lab (SNN) (2024)</li>
             </ul>
             <div class="photo">
-                Photo
+                <div class="activityPhoto">
+                    <img src="assets/lambda3rd.jpeg" alt="club_activity">
+                    <img src="assets/officetour.jpeg" alt="office_tour">
+                    <img src="assets/stanford.jpeg" alt="presentation_stanford">
+                    <img src="assets/IGCshowcase2.jpeg" alt="IGCshowcase2">
+                </div>
             </div>
         </div>
-        <div class="projects">
+        <div class="projects" id="projectPart">
             <h2 style="margin-left: 30px">Projects</h2>
             <hr>
             <p style="margin-left: 30px">Projects involved in web development</p>
@@ -75,16 +93,15 @@
               </div>
             </div>
           </div>
-        <div class="researchs">
+        <!-- <div class="researchs">
             <h2 style="margin-left: 30px">Researchs</h2>
             <hr>
             <div>
                 <div>archive1</div>
                 <div>archive2</div>
-                <div>archive3</div>
                 <div>ICEPR 2025</div>
             </div>
-        </div>
+        </div> -->
     </div>
 </body>
 </html>
