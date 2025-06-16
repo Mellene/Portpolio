@@ -3,69 +3,156 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
     <title>Yunho's website</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+    
   </head>
   <body>
+    <!-- <div id="background-gif"></div>
+    <div id="background-overlay"></div> -->
+    <!--     
+    <nav class="navbar" id="navbar">
+      <a href="index.html" id="homeTag" style="color: white; margin-left: 30px">
+        Yunho Kang
+      </a>
+      <div id="menu-icon">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <ul id="menu-list">
+        <li><a href="#homePart">Home</a></li>
+        <li><a href="#aboutPart">About</a></li>
+        <li><a href="#projectPart">Projects</a></li>
+        <li><a href="post.html">Posts</a></li>
+      </ul>
+    </nav> -->
+
     <!-- 메인 페이지 -->
-    <div class="main-part">
-      <h1 style="font-size: 120px">< Yunho Kang /></h1>
-      <p style="font-size: 20px">
-        <strong>Front-End Developer, UX Engineer, & Data Analysist</strong>
-      </p>
-    </div>
-    <div class="arrowIcon">
-      <img src="assets/arrow_down.svg" alt="Arrow Icon" />
-    </div>
-    <!-- 소개페이지 (내용은 바꿀 필요가 있음)-->
-    <div class="intro-part">
-      <h1>About me</h1>
-      <div class="description-part">
-        <div class="image-part">
-          <img
-            class="profile-img"
-            src="assets/profile.jpeg"
-            alt="Profile Image"
-          />
-        </div>
-        <div class="explain-part">
-          <p>
-            I Graduated in Stony Brook University as
-            <strong>Computer Science</strong> specialized with
-            <strong>Artificial Intelligence and Data Science</strong>. I'm
-            passionate about building user interface as
-            <strong>UX/UI</strong> experience using
-            <strong>React.js, HTML, CSS, bootstrap, and JavaScript</strong>. I
-            have an experience for researching Artificial Intelligence,
-            especially <strong>Spike Neural Network</strong> in SUNY Korea
+     <div class="main-container">
+      <div class="background-image">
+        <div class="main-part">
+          <h1 id="typing-title" style="font-size: 120px"></h1>
+          <p style="font-size: 20px">
+            <strong>Front-End Developer, UX Engineer, & Data Analysist</strong>
           </p>
-          <div class="social-icons">
-            <a href="https://www.linkedin.com/in/yun-ho-kang" target="_blank"
-              ><img src="assets/linkedin.svg" alt="LinkedIn"
-            /></a>
-            <a href="https://github.com/mellene" target="_blank"
-              ><img src="assets/github.svg" alt="GitHub"
-            /></a>
-            <a href="assets/Resume_Yunho_Kang.pdf" target="_blank"
-              ><img src="assets/link.svg" alt="Resume_Yunho"
-            /></a>
-            <a href="mailto:yunho.kang99@gmail.com" target="_blank"
-              ><img src="assets/gmail.svg" alt="Gmail"
-            /></a>
-          </div>
+        </div>
+        <div class="arrowIcon">
+          <img src="assets/arrow_down.svg" alt="Arrow Icon" />
         </div>
       </div>
     </div>
 
-    <!-- 스킬 페이지 -->
-    <div class="skill-part">
-      <h1>Skills</h1>
-      <p>Languages: Python, JavaScript, Java, C</p>
-      <p>Web: HTML5, CSS3, React, Git, Github, MySQL, Bootstrap</p>
-      <p>
-        Tools: VSCode, Figma, Penpot, Jira, Fork, Microsoft Office (PowerPoint,
-        Excel,Word)
-      </p>
+    <!-- 소개페이지 (내용은 바꿀 필요가 있음)-->
+    <div class="intro-animation-container">
+      <div class="intro-part">
+        <h1>About me</h1>
+        <div class="description-part card-book">
+          <div class="card-left">
+            <div class="image-part">
+              <img
+                class="profile-img"
+                src="assets/profile.jpeg"
+                alt="Profile Image"
+              />
+              <div class="overlay">
+                <div class="text-content">
+                  <p>1999.12.26</p>
+                  <p>Stony Brook University (SUNY Korea)</p>
+                  <p>Bachelor degree of Computer Science</p>
+                  <p>specialization of AI and Data Science</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-right">
+            <div class="card-face card-front">
+              <div class="explain-part">
+                <p>
+                  사용자 경험(UX)에 대한 깊은 이해를 바탕으로 직관적이고 아름다운
+                  인터페이스를 구현합니다. 
+                </p>
+                <p>React 기반의 프론트엔드 개발 능력과
+                  Figma를 활용한 프로토타이핑 및 디자인 시스템 구축 경험을 모두
+                  보유하고 있습니다.
+                </p> 
+                <p>기술과 디자인의 시너지를 통해 사용자와
+                  비즈니스 모두를 만족시키는 제품을 만드는 데 기여하고 싶습니다.
+                </p>
+                <div class="social-icons">
+                  <a
+                    href="https://www.linkedin.com/in/yun-ho-kang"
+                    target="_blank"
+                    ><img src="assets/linkedin.svg" alt="LinkedIn"
+                  /></a>
+                  <a href="https://github.com/mellene" target="_blank"
+                    ><img src="assets/github.svg" alt="GitHub"
+                  /></a>
+                  <a href="assets/Resume_Yunho_Kang.pdf" target="_blank"
+                    ><img src="assets/link.svg" alt="Resume_Yunho"
+                  /></a>
+                  <a href="mailto:yunho.kang99@gmail.com" target="_blank"
+                    ><img src="assets/gmail.svg" alt="Gmail"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="card-face card-back">
+              <!-- 흰 여백만 보이도록 내용 비움 -->
+               <!-- 왼쪽 페이지 -->
+              <div class="card-skill-half-right">
+                <div class="category-title">
+                  <strong>Web</strong>
+                </div>
+                <div class="skill-category">
+                  <div class="skills-list">
+                    <span class="skill-badge color-blue">HTML5</span>
+                    <span class="skill-badge color-orange">CSS3</span>
+                    <span class="skill-badge color-blue">React</span>
+                    <span class="skill-badge color-lightgrey">Git</span>
+                    <span class="skill-badge color-dark">Github</span>
+                    <span class="skill-badge color-blue">Jira</span>
+                    <span class="skill-badge color-lightblue">Fork</span>
+                    <span class="skill-badge color-pink">Figma</span>
+                    <span class="skill-badge color-dark">Penpot</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 오른쪽 페이지 -->
+          <div class="card-skill-half"> 
+            <div class="category-title">
+              <strong>Tools</strong>
+            </div>
+            <div class="skill-category">
+              <div class="skills-list">
+                <span class="skill-badge color-blue">VSCode</span>
+                <span class="skill-badge color-green">MySQL</span>
+                <span class="skill-badge color-red">Pytorch</span>
+                <span class="skill-badge color-purple">numPy</span>
+              </div>
+            </div>
+            <div style="margin-top: 50px;" class="category-title">
+                <strong>Languages</strong>
+              </div>
+            <div class="skill-category">
+              <div class="skills-list">
+                <span class="skill-badge color-lightblue">Python</span>
+                <span class="skill-badge color-yellow">JavaScript</span>
+                <span class="skill-badge color-orange">Java</span>
+                <span class="skill-badge color-blue">C</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="activity-photo">
+          <!--  -->
+        </div>
+      </div>
     </div>
 
     <!-- 커리어 페이지 -->
@@ -73,28 +160,28 @@
       <div class="career-part timeline-container">
         <h1 style="font-size: 50px">Career</h1>
         <div class="timeline-item">
-          <h4>Research Intern</h4>
-          <p>SUNY Korea</p>
+          <h4>Spike Neural Network 학부 연구 인턴</h4>
+          <p>SUNY Korea (2024.08 ~ 2025.05)</p>
         </div>
         <div class="timeline-item">
-          <h4>PM & Front-End Developer</h4>
-          <p>Caravan Research</p>
+          <h4>PM & 프론트엔드 개발자</h4>
+          <p>Caravan Research (2023.04 ~ 2025.05)</p>
         </div>
       </div>
 
       <div class="activity-part timeline-container">
         <div class="timeline-wrapper">
           <div class="timeline-item">
-            <h4>IGC union club "LAMBDA" President</h4>
-            <p>SUNY Korea</p>
+            <h4>IGC 연합 동아리 LAMBDA 회장</h4>
+            <p>SUNY Korea (2023.06 ~ 2024.06)</p>
           </div>
           <div class="timeline-item">
-            <h4>Teaching Assistant in KOR class</h4>
-            <p>Stony Brook University</p>
+            <h4>코리안 수업 학부 조교</h4>
+            <p>Stony Brook University (2024.08 ~ 2024.12)</p>
           </div>
           <div class="timeline-item">
-            <h4>STEAM coding mentor</h4>
-            <p>SUNY Korea</p>
+            <h4>학교 주관 초등학생 대상 코딩 멘토</h4>
+            <p>SUNY Korea (2024.02 ~ 2024.06)</p>
           </div>
         </div>
         <h1 style="font-size: 50px">Activities</h1>
@@ -110,7 +197,7 @@
       </div>
 
       <div class="portfolio-grid">
-        <div class="portfolio-item" data-category="project">
+        <div class="portfolio-item" data-category="project" data-project-key="lfp">
           <img src="assets/LFP.png" alt="LFP Platform" />
           <div class="item-info">
             <h3>LFP Platform</h3>
@@ -118,15 +205,15 @@
           </div>
         </div>
 
-        <div class="portfolio-item" data-category="project">
-          <img src="assets/caravan.png" alt="LFP Platform" />
+        <div class="portfolio-item" data-category="project" data-project-key="caravan">
+          <img src="assets/caravan.png" alt="Caravan Research" />
           <div class="item-info">
             <h3>Caravan Research</h3>
             <p>React / Node.js</p>
           </div>
         </div>
 
-        <div class="portfolio-item" data-category="project">
+        <div class="portfolio-item" data-category="project" data-project-key="ifn">
           <img src="assets/ifn.png" alt="LFP Platform" />
           <div class="item-info">
             <h3>International Finance Network</h3>
@@ -134,7 +221,7 @@
           </div>
         </div>
 
-        <div class="portfolio-item" data-category="project">
+        <div class="portfolio-item" data-category="project" data-project-key="Dyslexia">
           <img src="assets/Dylslexia.png" alt="Dyslexia Platform" />
           <div class="item-info">
             <h3>Dyslexia Platform</h3>
@@ -142,111 +229,78 @@
           </div>
         </div>
 
-        <div class="portfolio-item" data-category="research">
-          <img src="" alt="Spike Neural Network" />
+        <div class="portfolio-item" data-category="project" data-project-key="Club">
+          <img src="assets/lambda.png" alt="club website" />
           <div class="item-info">
-            <h3>Spike Neural Network</h3>
-            <p>Python / Pytorch</p>
+            <h3>LAMBDA Club Website</h3>
+            <p>HTML / CSS / JavaScript</p>
           </div>
         </div>
 
-        <div class="portfolio-item" data-category="project">
-          <img src="" alt="OTT Platform" />
+        <div class="portfolio-item" data-category="research" data-project-key="SNN">
+          <img src="assets/Object_detection.png" alt="Spike Neural Network" />
+          <div class="item-info">
+            <h3>Object Detection</h3>
+            <p>Python / Pytorch / YOLOv8</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="project" data-project-key="OTT">
+          <img src="assets/OTT.png" alt="OTT Platform" />
           <div class="item-info">
             <h3>OTT Platform</h3>
-            <p>React / Firebase</p>
+            <p>React / MySQL</p>
           </div>
         </div>
 
-        <div class="portfolio-item" data-category="research">
-          <img src="" alt="Tree Ranking" />
+        <div class="portfolio-item" data-category="research" data-project-key="PM">
+          <img src="assets/Tree_research.png" alt="Tree Ranking" />
           <div class="item-info">
-            <h3>Tree Ranking</h3>
-            <p>Algorithm / Data Structure</p>
+            <h3>Particulate Matter Research</h3>
+            <p>Excel / Python</p>
           </div>
         </div>
 
-        <div class="portfolio-item" data-category="research">
-          <img src="" alt="Instagram Filter" />
+        <div class="portfolio-item" data-category="research" data-project-key="insta">
+          <img src="assets/Drug_filter.png" alt="Instagram Filter" />
           <div class="item-info">
-            <h3>Instagram Filter</h3>
-            <p>Spark AR</p>
+            <h3>Drug recognition Research</h3>
+            <p>Spark AR / Figma</p>
           </div>
         </div>
       </div>
     </div>
-
-    <!-- 네비게이션 바 -->
-    <!-- <nav class="navbar">
-      <a href="index.html" id="homeTag" style="color: white; margin-left: 30px"> Yunho Kang </a>
-      <div id="menu-icon">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <ul id="menu-list">
-        <li><a href="#homePart">Home</a></li>
-        <li><a href="#aboutPart">About</a></li>
-        <li><a href="#projectPart">Projects</a></li>
-        <li><a href="post.html">Posts</a></li>
-      </ul>
-    </nav> -->
-
-    <!-- 소개페이지 -->
-    <!-- <div class="homePage" id="homePart">
-      <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; margin-bottom: 40px;">
-        <img class="profile-img" src="assets/profile.jpeg" alt="Profile Image" />
-        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-        <p style="justify-content: center;"><strong style="font-size: 30px">Yunho Kang</strong></p>
-        <p>(Front-End Developer & Data Analysist)</p>
-        </div> 
-      </div>
-      <div class="profile-info">
-        <p>👋 Hi, I'm Yunho Kang.</p>
-        <p>
-          I Graduated in Stony Brook University as
-          <strong>Computer Science</strong> specialized with <strong>Artificial Intelligence and Data
-            Science</strong>.
-        </p>
-        <p>
-          I'm passionate about building user interface as
-          <strong>UX/UI</strong> experience using
-          <strong>React.js, HTML, CSS, bootstrap, and JavaScript</strong>.
-        </p>
-        <p>
-          I have an experience for researching Artificial Intelligence,
-          especially <strong>Spike Neural Network</strong> in SUNY Korea
-        </p>
-        <p>
-          <strong>Languages</strong>: Python, JavaScript, Java, C 
-        </p>
-        <p>
-          <strong>Web</strong>: HTML5, CSS3, React, Git, Github, MySQL, Bootstrap
-        </p>
-        <p>
-          <strong>Tools</strong>: VSCode, Figma, Penpot, Jira, Fork, Microsoft Office (PowerPoint, Excel,
-          Word)
-        </p>
-        <p class="research">
-          <strong>Research Interests:</strong> UX/UI, Human Computer Interaction, Neural Networks, Object
-          Detection
-        </p> -->
-    <!-- <div class="social-icons">
-          <a href="https://www.linkedin.com/in/yun-ho-kang" target="_blank"
-            ><img src="assets/linkedin.svg" alt="LinkedIn"
-          /></a>
-          <a href="https://github.com/mellene" target="_blank"
-            ><img src="assets/github.svg" alt="GitHub"
-          /></a>
-          <a href="assets/Resume_Yunho_Kang.pdf" target="_blank"
-            ><img src="assets/link.svg" alt="Resume_Yunho"
-          /></a>
-          <a href="mailto:yunho.kang99@gmail.com" target="_blank"
-            ><img src="assets/gmail.svg" alt="Gmail"
-          /></a>
-        </div> -->
     <footer>
-      <p>Copy right 2025. Designed and Developed by Yunho Kang</p>
+      <p
+        style="
+          text-align: right;
+          margin-right: 20px;
+          font-size: 20px;
+          color: #888;
+        "
+      >
+        Copy right 2025. Designed and Developed by Yunho Kang
+      </p>
     </footer>
+    
+    <script src="./javascript/name_animation.js"></script>
+    <script src="./javascript/project_animation.js"></script>
+    <script src="./javascript/book_animation.js"></script>
+    <script src="./javascript/modal_animation.js"></script>
+    <script src="./javascript/career_animation.js"></script>
+
+    <div id="project-modal" class="modal-container">
+      <div class="modal-overlay"></div>
+      
+      <div class="modal-content">
+        <button class="modal-close-btn">&times;</button>
+        
+        <img id="modal-img" src="" alt="Project Image" />
+        <h2 id="modal-title"></h2>
+        <p id="modal-tech"></p>
+        <div id="modal-description"></div>
+        <a id="modal-link"></a>
+      </div>
+    </div>
   </body>
 </html>
