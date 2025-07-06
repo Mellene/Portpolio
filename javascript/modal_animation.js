@@ -10,9 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
         tech: "React / Node.js / JavaScript",
         imageSrc: "assets/LFP.png",
         description: `
-          <p>LFP (Life Financial platform) - 인생재무설계 플랫폼</p>
-          <p>주요 기능: 투자 재산 예측, 재무 계획에 따른 자산 흐름 예측</p>
-          <p>사용 기술: React, Node.js, JavaScript, docker, Python </p>
+          <p>LFP (Life Financial platform)</p>
+          <p>Key Features: Investment Asset Forecasting, Asset Flow Projection Based on Financial Planning</p>
+          <p>Skills: React, Node.js, JavaScript, docker, Python </p>
         `,
         link: "https://github.com/AirWolve/lfp",
       },
@@ -21,10 +21,10 @@ document.addEventListener('DOMContentLoaded', () => {
         tech: "React / Node.js",
         imageSrc: "assets/caravan.png",
         description: `
-        <p>Caravan Research - 비영리 연구 단체</p>
-        <p>주요 활동: 매달 프로젝트 건의 및 투표 후 채택</p>
-        <p>채택된 프로젝트들에 소속되어 연구 진행</p>
-        <p>사용 기술: React, JSON, JavaScript, cloudflare, Node.js </p>
+        <p>Caravan Research - Nonprofit Research Organization</p>
+        <p>Main Activities: Proposing and Voting on Monthly Projects</p>
+        <p>Followed by Participation in Selected Research Projects</p>
+        <p>Skills: React, JSON, JavaScript, cloudflare, Node.js </p>
         `,
         link: "https://caravan.us.org",
       },
@@ -33,10 +33,10 @@ document.addEventListener('DOMContentLoaded', () => {
         tech: "HTML / CSS / JavaScript",
         imageSrc: "assets/lambda.png",
         description: `
-        <p>LAMBDA - 인천글로벌캠퍼스 연합 토이 프로젝트 동아리</p>
-        <p>주요 활동: 1년간 동아리 회장 및 프로젝트 매니징 활동</p>
-        <p>총 13개의 프로젝트 중 70%의 프로젝트 완성</p>
-        <p>사용 기술: HTML / CSS / JavaScript</p>
+        <p>LAMBDA – Incheon Global Campus Union Toy Project Club</p>
+        <p>Main Activities: Served as Club President and Project Manager for one year.</p>
+        <p>Completed 70% of a total of 13 projects during the term.</p>
+        <p>Skills: HTML / CSS / JavaScript</p>
         `,
         link: "https://mellene.github.io/lambda/index.html",
         
@@ -46,9 +46,9 @@ document.addEventListener('DOMContentLoaded', () => {
         tech: "HTML / CSS / JavaScript",
         imageSrc: "assets/ifn.png",
         description: `
-        <p>IFN - 국제 경제 학회</p>
-        <p>국제 경제 학회로써 각종 강연 및 경제관련 연구 진행을 하는 학회 단체</p>
-        <p>사용 기술: HTML, CSS, JavaScript</p>
+        <p>IFN - International Finance Network</p>
+        <p>An international economics society that hosts various lectures and conducts research on economic topics.</p>
+        <p>Skills: HTML, CSS, JavaScript</p>
         `,
         link: "https://www.ifnsince24.com",
         
@@ -58,9 +58,9 @@ document.addEventListener('DOMContentLoaded', () => {
         tech: "React / JavaScript / Node.js",
         imageSrc: "assets/Dylslexia.png",
         description: `
-        <p>Dyslexia catcher - 난독증 환자를 위한 학습 보조 플랫폼</p>
-        <p>난독증 환자들을 위한 증상 진단을 진행하고, 이를 통해 치료 수단 등을 제안</p>
-        <p>사용 기술: React, JavaScript, Node.js </p>
+        <p>Dyslexia Catcher – A Learning Support Platform for Individuals with Dyslexia</p>
+        <p>Conducts symptom assessments for individuals with dyslexia and provides personalized recommendations for treatment and support methods.</p>
+        <p>Skills: React, JavaScript, Node.js </p>
         `,
         link: "https://github.com/shot-salmon/Dyslexia-Catcher",
         
@@ -70,9 +70,9 @@ document.addEventListener('DOMContentLoaded', () => {
         tech: "Python / Pytorch / YOLOv8",
         imageSrc: "assets/Object_detection.png",
         description: `
-        <p>Object-detection - YOLOv8 모델을 활용한 객체 탐지 연구</p>
-        <p>한국의 대표적인 고속도로 CCTV를 활용하여 Object detection으로 막히는 시간대 분석</p>
-        <p>사용 기술: Python, Pytorch, YOLOv8</p>`,
+        <p>Object Detection – Research Using the YOLOv8 Model</p>
+        <p>Analyzed traffic congestion patterns using object detection on footage from major highway CCTV systems in South Korea.</p>
+        <p>Skills: Python, Pytorch, YOLOv8</p>`,
         
       },
       OTT: { // HTML에 맞춰 키 추가
@@ -80,9 +80,9 @@ document.addEventListener('DOMContentLoaded', () => {
           tech: "React / MySQL",
           imageSrc: "assets/OTT.png",
           description: `
-          <p>OTT 서비스 - UI를 클론 코딩한 프로젝트</p>
-          <p>주요 기능: 영화 검색, 영화 카테고리, 스트리밍 서비스</p>
-          <p>사용 기술: React, MySQL, JavaScript</p>
+          <p>OTT Service Platform - Project with Clone Coding</p>
+          <p>Key Features: Movie Search, Genre-Based Browsing, Streaming Service Integration</p>
+          <p>Skills: React, MySQL, JavaScript</p>
           `,          
           link: 'https://github.com/dbsghrkd/cse316/tree/main'
       },
@@ -91,9 +91,9 @@ document.addEventListener('DOMContentLoaded', () => {
           tech: "Excel / Python",
           imageSrc: "assets/Tree_research.png",
           description: `
-          <p>Particulate matter tree research - 미세먼지 저감 수종 관련된 데이터 분석 연구</p>
-          <p>주요 내용: 각 지역별 조건에 맞는 미세먼지 저감 수종 추출 및 순위 도출</p>
-          <p>사용 기술: Excel, Python</p>
+          <p>Particulate Matter Tree Research – Data Analysis on Tree Species for Fine Dust Reduction</p>
+          <p>Main Focus: Identifying and ranking tree species most effective at reducing particulate matter based on regional environmental conditions.</p>
+          <p>Skills: Excel, Python</p>
           `,
           link: "https://doi.org/10.31224/4187",
       
@@ -102,9 +102,9 @@ document.addEventListener('DOMContentLoaded', () => {
           title: "Drug recognition Research",
           tech: "Spark AR / Figma",
           imageSrc: "assets/Drug_filter.png",
-          description: `<p>AR 필터를 이용한 약물 인식 연구</p>
-          <p>주요 내용: 약물 인식 필터 제작 및 사용성 테스트</p>
-          <p>사용 기술: Spark AR, Figma</p>`,
+          description: `<p>Drug Awareness Research Using AR Filters</p>
+          <p>Main Focus: Development of drug recognition AR filters and usability testing.</p>
+          <p>Skills: Spark AR, Figma</p>`,
       }
     };
     
