@@ -5,17 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 1. 각 프로젝트에 대한 상세 정보를 객체 형태로 저장합니다.
     const projectData = {
-      dadam: {
-        title: "Dadam ios app",
-        tech: "SwiftUI / iOS",
-        imageSrc: "assets/dadam.png",
-        description: `
-          <p>Dadam - A Comprehensive Memo-calendar Application</p>
-          <p>Key Features: Scheduling, Memo, calendar-memo connection</p>
-          <p>Skills: SwiftUI, iOS Development, Figma</p>
-        `,
-        link: "https://apps.apple.com/kr/app/%EB%8B%A4%EB%8B%B4/id6754250916",
-      },
       lfp: {
         title: "LFP Platform",
         tech: "React / Node.js / JavaScript",
